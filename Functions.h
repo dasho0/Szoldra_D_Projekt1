@@ -3,17 +3,16 @@
 
 
 /**
- * @struct Weze³ listy dwukierunkowej
- * @brief W tej strukturze utworzony jest weze³
+ * @brief Struktura tworzaca wezel
  */
 struct list_w {
     int data;      /**< Dane przechowywane w wezle */
-    list_w* prev;    /**< Wskaznik na poprzedni weze³ */
-    list_w* next;    /**< Wskaznik na nastêpny weze³ */
+    list_w* prev;    /**< Wskaznik na poprzedni wezel */
+    list_w* next;    /**< Wskaznik na nastêpny wezel */
 
     /**
-     * @brief Konstruktor wêz³a
-     * @param value Wartoœæ przechowywana w wêŸle
+     * @brief Konstruktor wez³a
+     * @param value Wartoœæ przechowywana w wezle
      */
     list_w(int value);
 };
